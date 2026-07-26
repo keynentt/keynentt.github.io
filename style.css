@@ -739,3 +739,89 @@ font-size:.98rem;
 
 }
 
+
+/* ==========================
+SECONDARY PAGE HERO
+========================== */
+
+.page-hero{
+
+padding:70px 0 50px;
+
+text-align:center;
+
+position:relative;
+
+overflow:hidden;
+
+}
+
+.page-hero::before{
+
+content:"";
+
+position:absolute;
+
+top:-180px;
+
+left:50%;
+
+transform:translateX(-50%);
+
+width:700px;
+
+height:700px;
+
+border-radius:50%;
+
+background:
+
+radial-gradient(circle,#efe4ff 0%,transparent 70%);
+
+z-index:-1;
+
+}
+
+.page-hero .logo{
+
+justify-content:center;
+
+margin-bottom:25px;
+
+}
+
+.page-hero h1{
+
+font-size:3.3rem;
+
+margin-bottom:18px;
+
+color:var(--text);
+
+}
+
+.page-hero h1 span{
+
+display:block;
+
+color:var(--primary);
+
+}
+
+.page-hero p{
+
+max-width:720px;
+
+margin:auto;
+
+font-size:1.1rem;
+
+color:var(--muted);
+
+}
+
+.page-hero .badge{
+
+margin-bottom:24px;
+
+}
